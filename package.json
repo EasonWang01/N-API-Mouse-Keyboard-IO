@@ -1,0 +1,22 @@
+{
+  "name": "napi-mouse-keyboard-io-listener",
+  "version": "0.0.1",
+  "description": "A native Node.js addon for listening to mouse and keyboard events using N-API and C++ bindings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "build": "node-gyp configure build",
+    "clean": "node-gyp clean"
+  },
+  "keywords": ["n-api", "c++", "native-addon", "node-gyp", "mouse", "keyboard", "event-listener"],
+  "author": "EasonWang01",
+  "license": "MIT",
+  "gypfile": true,
+  "devDependencies": {
+    "node-addon-api": "^8.1.0"
+  },
+  "volta": {
+    "node": "18.14.2"
+  }
+}
